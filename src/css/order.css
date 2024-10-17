@@ -1,0 +1,473 @@
+.order-page {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: rgb(248, 248, 254);
+}
+
+/**ordersPage*/
+
+/** Umumiy container*/
+
+.order-page .order-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-top: 51px;
+  display: flex;
+  flex-direction: row;
+}
+
+/** CHAP TARAF BOX*/
+
+.order-page .order-container .order-left {
+  position: relative;
+  width: 870px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/** chap taraf frame*/
+.order-page .order-container .order-left .order-nav-frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 870px;
+  padding: 20px;
+  margin-left: -25px;
+}
+
+.order-page .order-container .order-left .order-nav-frame .table_list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: #343434;
+  font-family: "Commissioner", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.order-page .order-container .order-left .order-main-content {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+/**Chap taraf main*/
+
+.order-main-box {
+  position: relative;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 821px;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: inset 0px 4px 16px 0px rgba(242, 189, 87, 0.04),
+    inset 0px 4px 10px 9px rgb(211, 211, 231),
+    -12px 12px 4px 0px rgb(186, 186, 191);
+  background: rgb(248, 248, 254);
+  margin-bottom: 32px;
+}
+
+.order-main-box .order-box-scroll {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-top: 21px;
+  margin-left: 40px;
+  gap: 5px;
+}
+
+/**Main tepa qismi*/
+
+.order-main-box .order-box-scroll .order-name-price {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 664px;
+  height: 47px;
+}
+
+.order-main-box .order-box-scroll .order-name-price .order-dish-img {
+  width: 50px;
+  height: 47px;
+  border-radius: 29px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.order-main-box .order-box-scroll .order-name-price .title-dish {
+  position: relative;
+  display: flex;
+  margin-left: 20px;
+  width: 300px;
+  height: 36px;
+
+  font-family: "Commissioner";
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.order-main-box .order-box-scroll .order-name-price .price-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 170px;
+  width: 159px;
+  height: 27.57px;
+  background-color: #f8f8ff;
+  text-align: end;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0%;
+  color: rgba(38, 38, 38, 0.88);
+}
+
+/**Main pastki qismi*/
+
+.order-main-box .total-price-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  width: 750px;
+  height: 36px;
+  margin-left: 40px;
+  margin-bottom: 13px;
+}
+
+.order-main-box .total-price-box .box-total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 474px;
+  height: 31px;
+}
+
+.order-main-box .total-price-box .box-total p {
+  font-family: "Commissioner";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: rgb(0, 0, 0);
+}
+
+.order-main-box .total-price-box .box-total .cancel-button {
+  width: 93.1px;
+  height: 36px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  font-family: "Commissioner";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+  color: rgb(52, 52, 52);
+  text-align: left;
+}
+
+.order-main-box .total-price-box .box-total .cancel-button,
+.pay-button {
+  width: 90px;
+  height: 36px;
+
+  color: rgb(255, 255, 255);
+  font-family: "Commissioner";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-color: rgb(112, 180, 91);
+}
+
+/******************************************* O`NG TARAF BOX*********************/
+.order-page .order-container .order-right {
+  position: relative;
+  width: 360px;
+  height: auto;
+  margin-top: 112px;
+  margin-left: 52px;
+}
+
+.order-page .order-container .order-right .order-info-box {
+  position: relative;
+  width: 372px;
+  height: 677px;
+  margin-bottom: 335px;
+}
+
+/**Tepadagi user*/
+
+.order-page .order-container .order-right .order-info-box .member-box {
+  width: 372px;
+  height: 308px;
+  border-radius: 16px;
+  box-shadow: inset 0px 4px 16px 0px rgba(242, 189, 87, 0.04),
+    inset 0px 1px 11px 12px rgb(211, 211, 231),
+    14px 14px 5px 0px rgb(187, 187, 191);
+  background: rgb(248, 248, 254);
+}
+
+.order-page
+  .order-container
+  .order-right
+  .order-info-box
+  .member-box
+  .order-user-img
+  .order-user-avatar {
+  width: 117px;
+  height: 112px;
+  border-radius: 37px;
+  margin-top: 29px;
+  margin-left: 128px;
+
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.order-page
+  .order-container
+  .order-right
+  .order-info-box
+  .member-box
+  .order-user-img
+  .location-user-img {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  margin-left: 36px;
+  margin-top: 126px;
+}
+
+.order-page
+  .order-container
+  .order-right
+  .order-info-box
+  .member-box
+  .order-user-img
+  .order-user-icon-box {
+  position: absolute;
+  z-index: 10;
+  width: 30px;
+  height: 30px;
+  border-radius: 37px;
+  margin-top: -25px;
+  margin-left: 216px;
+
+  background: rgba(0, 0, 0, 0.33);
+}
+
+.order-page
+  .order-container
+  .order-right
+  .order-info-box
+  .member-box
+  .order-user-img
+  .order-user-icon-box
+  .order-user-prof-img {
+  width: 20px;
+  height: 20px;
+  border-radius: 37px;
+  color: #f8f8ff;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.order-page
+  .order-container
+  .order-right
+  .order-info-box
+  .member-box
+  .user-name {
+  position: relative;
+  width: 76px;
+  height: 37px;
+  margin-top: -30px;
+  margin-left: 148px;
+  color: rgb(8, 9, 13);
+  font-family: "Commissioner";
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.order-page .order-container .order-right .order-info-box .member-box .user {
+  width: 53px;
+  height: 37px;
+  color: rgb(161, 161, 161);
+  font-family: "Commissioner";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0%;
+  margin-left: 158px;
+  margin-top: -20px;
+}
+
+/* Line 52 */
+.order-page .order-container .order-right .order-info-box .member-box .line {
+  position: absolute;
+  width: 332.59px;
+  height: 0;
+  margin-left: 20px;
+  margin-top: 40px;
+  border: 2px solid rgb(161, 161, 161);
+}
+
+.order-page .order-container .order-right .order-info-box .member-box .address {
+  position: relative;
+  width: 255px;
+  height: 22px;
+  color: rgb(0, 0, 0);
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 61px;
+  margin-top: 52px;
+}
+
+/**Card user*/
+
+.order-page .order-container .order-right .order-info-box .card-box {
+  width: 372px;
+  height: 282px;
+  margin-top: 23px;
+
+  border-radius: 16px;
+
+  box-shadow: inset 0px 4px 16px 0px rgba(242, 189, 87, 0.04),
+    inset 0px 0px 9px 14px rgb(211, 211, 231),
+    14px 14px 4px 0px rgb(188, 188, 191);
+  background: rgb(248, 248, 254);
+}
+
+.order-page
+  .order-container
+  .order-right
+  .order-info-box
+  .card-number
+  .number1 {
+  width: 325px;
+  height: 40px;
+  margin-top: 30px;
+  margin-left: 27px;
+  box-sizing: border-box;
+  border: 1px solid rgb(180, 170, 170);
+  border-radius: 5px;
+
+  background: rgb(245, 245, 245);
+  color: rgb(119, 119, 119);
+  font-family: "Commissioner";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.order-page .order-container .order-right .order-info-box .card-data .number2 {
+  width: 156px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 27px;
+  box-sizing: border-box;
+  border: 1px solid rgb(180, 170, 170);
+  border-radius: 5px;
+
+  background: rgb(245, 245, 245);
+  color: rgb(119, 119, 119);
+  font-family: "Commissioner";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.order-page .order-container .order-right .order-info-box .card-cvv .number3 {
+  position: absolute;
+  width: 156px;
+  height: 40px;
+  margin-top: -40px;
+  margin-left: 195px;
+  box-sizing: border-box;
+  border: 1px solid rgb(180, 170, 170);
+  border-radius: 5px;
+
+  background: rgb(245, 245, 245);
+  color: rgb(119, 119, 119);
+  font-family: "Commissioner";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.order-page
+  .order-container
+  .order-right
+  .order-info-box
+  .card-name-user
+  .number4 {
+  width: 325px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 27px;
+  box-sizing: border-box;
+  border: 1px solid rgb(180, 170, 170);
+  border-radius: 5px;
+
+  background: rgb(245, 245, 245);
+  color: rgb(119, 119, 119);
+  font-family: "Commissioner";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.order-page .order-container .order-right .order-info-box .card-box .cards {
+  position: relative;
+  width: 243px;
+  height: 25.68px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 58.66px;
+  margin-left: 64px;
+}
+
+.order-page
+  .order-container
+  .order-right
+  .order-info-box
+  .card-box
+  .cards
+  .cards-name {
+  width: 38px;
+  height: 25.68px;
+}
