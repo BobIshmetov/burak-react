@@ -32,7 +32,7 @@ export default function FinishedOrders() {
               </Box>
 
               <Box className={"total-price-box"}>
-                <Box className={"box-total"}>
+                <Box marginLeft={"135px"} className={"box-total"}>
                   <p>Product price</p>
                   <p>$18</p>
                   <img src={"/icons/plus.svg"} style={{ marginLeft: "20px" }} />
@@ -45,16 +45,6 @@ export default function FinishedOrders() {
                   <p>Total</p>
                   <p>$20</p>
                 </Box>
-                <Button
-                  variant="contained"
-                  color="secondary"
-                  className={"cancel-button"}
-                >
-                  Cancel
-                </Button>
-                <Button variant="contained" className={"pay-button"}>
-                  Payment
-                </Button>
               </Box>
             </Box>
           );

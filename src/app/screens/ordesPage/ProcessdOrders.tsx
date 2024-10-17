@@ -50,7 +50,15 @@ export default function ProcessdOrders() {
                   {moment().format("YY-MM-DD HH:mm")}
                 </p>
 
-                <Button variant="contained" className={"verify-button"}>
+                <Button
+                  sx={{
+                    backgroundColor: "rgb(58, 135, 203);",
+                    color: "white",
+                    "&:hover": { backgroundColor: "darkblue" },
+                  }}
+                  variant="contained"
+                  className={"verify-button"}
+                >
                   Verify to Fulfil
                 </Button>
               </Box>
